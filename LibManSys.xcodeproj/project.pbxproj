@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC6EF0672BF0D4BB007039C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0662BF0D4BB007039C6 /* main.cpp */; };
+		AC6EF0722BF0DFA9007039C6 /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0702BF0DFA9007039C6 /* Book.cpp */; };
+		AC6EF0752BF0DFB4007039C6 /* CD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0732BF0DFB4007039C6 /* CD.cpp */; };
+		AC6EF0782BF0F033007039C6 /* LibItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0762BF0F033007039C6 /* LibItem.cpp */; };
+		AC6EF07A2BF0F2CA007039C6 /* Library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0792BF0F2CA007039C6 /* Library.cpp */; };
+		AC6EF07D2BF0F5B6007039C6 /* books.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC6EF07B2BF0F3DC007039C6 /* books.txt */; };
+		AC6EF08A2BF1517E007039C6 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF0882BF1517E007039C6 /* User.cpp */; };
+		AC6EF08D2BF15BD7007039C6 /* Admin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF08B2BF15BD7007039C6 /* Admin.cpp */; };
+		AC6EF0902BF15D3C007039C6 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6EF08E2BF15D3C007039C6 /* Student.cpp */; };
+		AC921F022BF45CD200ABC17B /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC921F002BF45CD200ABC17B /* Menu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +29,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		AC6EF07C2BF0F596007039C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				AC6EF07D2BF0F5B6007039C6 /* books.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AC6EF0632BF0D4BB007039C6 /* LibManSys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibManSys; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6EF0662BF0D4BB007039C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC6EF06E2BF0D4CC007039C6 /* Library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Library.hpp; sourceTree = "<group>"; };
+		AC6EF0702BF0DFA9007039C6 /* Book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
+		AC6EF0712BF0DFA9007039C6 /* Book.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Book.hpp; sourceTree = "<group>"; };
+		AC6EF0732BF0DFB4007039C6 /* CD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CD.cpp; sourceTree = "<group>"; };
+		AC6EF0742BF0DFB4007039C6 /* CD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CD.hpp; sourceTree = "<group>"; };
+		AC6EF0762BF0F033007039C6 /* LibItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LibItem.cpp; sourceTree = "<group>"; };
+		AC6EF0772BF0F033007039C6 /* LibItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LibItem.hpp; sourceTree = "<group>"; };
+		AC6EF0792BF0F2CA007039C6 /* Library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Library.cpp; sourceTree = "<group>"; };
+		AC6EF07B2BF0F3DC007039C6 /* books.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = books.txt; sourceTree = "<group>"; };
+		AC6EF0882BF1517E007039C6 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		AC6EF0892BF1517E007039C6 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		AC6EF08B2BF15BD7007039C6 /* Admin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Admin.cpp; sourceTree = "<group>"; };
+		AC6EF08C2BF15BD7007039C6 /* Admin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Admin.hpp; sourceTree = "<group>"; };
+		AC6EF08E2BF15D3C007039C6 /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		AC6EF08F2BF15D3C007039C6 /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		AC6EF0942BF19B1E007039C6 /* cds.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cds.txt; sourceTree = "<group>"; };
+		AC921EFF2BF459C200ABC17B /* students.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = students.txt; sourceTree = "<group>"; };
+		AC921F002BF45CD200ABC17B /* Menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		AC921F012BF45CD200ABC17B /* Menu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,25 @@
 			isa = PBXGroup;
 			children = (
 				AC6EF0662BF0D4BB007039C6 /* main.cpp */,
+				AC6EF0792BF0F2CA007039C6 /* Library.cpp */,
+				AC6EF06E2BF0D4CC007039C6 /* Library.hpp */,
+				AC6EF0762BF0F033007039C6 /* LibItem.cpp */,
+				AC6EF0772BF0F033007039C6 /* LibItem.hpp */,
+				AC6EF0702BF0DFA9007039C6 /* Book.cpp */,
+				AC6EF0712BF0DFA9007039C6 /* Book.hpp */,
+				AC6EF0732BF0DFB4007039C6 /* CD.cpp */,
+				AC6EF0742BF0DFB4007039C6 /* CD.hpp */,
+				AC6EF0882BF1517E007039C6 /* User.cpp */,
+				AC6EF0892BF1517E007039C6 /* User.hpp */,
+				AC6EF08B2BF15BD7007039C6 /* Admin.cpp */,
+				AC6EF08C2BF15BD7007039C6 /* Admin.hpp */,
+				AC6EF08E2BF15D3C007039C6 /* Student.cpp */,
+				AC6EF08F2BF15D3C007039C6 /* Student.hpp */,
+				AC921F002BF45CD200ABC17B /* Menu.cpp */,
+				AC921F012BF45CD200ABC17B /* Menu.hpp */,
+				AC6EF07B2BF0F3DC007039C6 /* books.txt */,
+				AC6EF0942BF19B1E007039C6 /* cds.txt */,
+				AC921EFF2BF459C200ABC17B /* students.txt */,
 			);
 			path = LibManSys;
 			sourceTree = "<group>";
@@ -72,6 +129,7 @@
 				AC6EF05F2BF0D4BB007039C6 /* Sources */,
 				AC6EF0602BF0D4BB007039C6 /* Frameworks */,
 				AC6EF0612BF0D4BB007039C6 /* CopyFiles */,
+				AC6EF07C2BF0F596007039C6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC921F022BF45CD200ABC17B /* Menu.cpp in Sources */,
+				AC6EF0902BF15D3C007039C6 /* Student.cpp in Sources */,
+				AC6EF07A2BF0F2CA007039C6 /* Library.cpp in Sources */,
+				AC6EF0722BF0DFA9007039C6 /* Book.cpp in Sources */,
+				AC6EF08D2BF15BD7007039C6 /* Admin.cpp in Sources */,
 				AC6EF0672BF0D4BB007039C6 /* main.cpp in Sources */,
+				AC6EF08A2BF1517E007039C6 /* User.cpp in Sources */,
+				AC6EF0782BF0F033007039C6 /* LibItem.cpp in Sources */,
+				AC6EF0752BF0DFB4007039C6 /* CD.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
