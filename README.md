@@ -27,3 +27,10 @@ The system reads and writes data to text files in CSV-like format:
 -  Separate access levels: Admin and Student
 -  Manual exception handling using `try-catch`
 
+ Future Improvements
+
+Add authentication for admin access
+Build a Graphical User Interface (GUI) using Qt or GTK
+Improve error handling using custom exception classes
+Use template classes to avoid code repetition
+Fix the borrow books bugs
