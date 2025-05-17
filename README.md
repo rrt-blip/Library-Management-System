@@ -1,7 +1,7 @@
 # Library-Management-System
 A simple **Command Line Interface (CLI)** based Library Management System developed in **C++** as part of the *Basics of Programming* course at BME. This system demonstrates the use of **Object-Oriented Programming (OOP)**, **File Handling**, and **Exception Handling** principles.
 
-## 🧠 Project Description
+##  Project Description
 
 The system manages the core functionalities of a library:
 - Registering and modifying **Books**, **CDs**, and **Students**
@@ -19,11 +19,11 @@ The system reads and writes data to text files in CSV-like format:
 
 ##  Features
 
-- ✅ Add, delete, and modify books and CDs
-- 🔍 Search for books and CDs by ISBN
-- 👨‍🎓 Register and manage students
-- 📖 Borrow and return books or CDs
-- 📁 File-based data persistence
-- 🔐 Separate access levels: Admin and Student
-- 🛠 Manual exception handling using `try-catch`
+-  Add, delete, and modify books and CDs
+-  Search for books and CDs by ISBN
+-  Register and manage students
+-  Borrow and return books or CDs
+-  File-based data persistence
+-  Separate access levels: Admin and Student
+-  Manual exception handling using `try-catch`
 
